@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Cinzel:wght@500&family=Cormorant+Garamond:ital,wght@1,500&family=DM+Serif+Text:ital@1&family=Katibeh&family=Marck+Script&family=Nunito+Sans:ital,wght@1,700&family=Passions+Conflict&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   background: linear-gradient(90deg, rgba(223,114,18,1) 0%, rgba(2,236,254,1) 0%, rgba(76,126,130,1) 96%);
+
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.card{
+    
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-right: 30px solid rgb(68, 140, 222);
+    text-transform: uppercase;
+    font-family: 'Abyssinica SIL', serif;;
+
+}
+.login{
+    margin: 10px;
+    color:  rgb(68, 140, 222);
+    padding: 10px;
+ 
+    
+}
+#hello{
+    margin-left: 30px
+}
+#hi{
+    margin-left: 30px
+}
+.name{
+    height: 25px;
+    width: 70%;
+    margin: 10px;
+    margin-left:30px;
+    background: rgb(177, 174, 174);
+    text-decoration: none;
+    border: none;
+  
+    
+}
+.password{
+    height: 25px;
+    width: 70%;
+    margin: 10px;
+    margin-left:30px;
+    background: rgb(177, 174, 174);
+    text-decoration: none;
+    border: none;
+   
+    
+}
+#box1{
+    margin: 10px;
+    margin-left:30px;
+}
+#pass{
+    font-size: 12px;
+   padding: 45px;
+   
+   
+}
+#logo{
+   
+    margin:30px;
+    width: 300px;
+    height: 30px;
+    background:rgb(68, 140, 222) ;
+    border: none;
+    cursor: pointer;
+
+}
